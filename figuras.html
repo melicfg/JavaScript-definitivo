@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas</title>
+</head>
+<body>
+    <h1>Figuras Geometricas</h1>
+
+    <h2>calcula el area y perimetro de un cuadrado</h2>
+
+    <form class="cuadrado" action="">
+        <label for="input_cuadrado">
+            escribe la medida de los lados del cuadrado
+        </label>
+        <input id="input_cuadrado" type="number">
+        <button type="button" onclick="calcPerimetroCuadrado()">Calcula el perimetro</button>
+        <button type="button" onclick="calcAreaCuadrado()">Calcula el area</button>
+
+    </form>
+    <br>
+    <form class="triangulo" action="">
+        <label for="input_triangulo">
+            escribe la medida de los lados del triangulo
+        </label>
+        <input id="input_triangulo" type="number">
+        <input id="input_triangulo2" type="number">
+        <label for="input_triangulo3">
+            Escribe la medida de la base del triangulo
+        </label>
+        <input id="input_triangulo3" type="number">
+        <label for="altura_triangulo">
+            Escribe la medida de la altura del triangulo
+        </label>
+        <input id="altura_triangulo" type="number">
+        <button type="button" onclick="calcPerimetroTriangulo()">Calcula el perimetro</button>
+        <button type="button" onclick="calcAreaTriangulo()">Calcula el area</button>
+
+    </form>
+    <br>
+    <form class="circulo" action="">
+        <label for="input_cuadrado">
+            escribe la medida del radio del circulo
+        </label>
+        <input id="input_circulo" type="number">
+        <button type="button" onclick="calcPerimetroCirculo()">Calcula el perimetro</button>
+        <button type="button" onclick="calcAreaCirculo()">Calcula el area</button>
+
+    </form>
+
+    <script src="figuras.js"></script>
+</body>
+</html>
